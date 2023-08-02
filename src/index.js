@@ -67,6 +67,8 @@ const DOM = (() => {
   const deadline = document.createElement("div");
   deadline.id = "deadline";
   deadline.classList.add("time-container");
+  deadline.textContent =
+    `Einschulung: ` + format(new Date("2025-09-01 08:00:00"), "dd.MM.yyyy");
 
   countdown.append(deadline);
 })();
@@ -101,9 +103,6 @@ function updateCountdown() {
   document.getElementById("hours").textContent = `${hours} Stunden`;
   document.getElementById("minutes").textContent = `${minutes} Minuten`;
   document.getElementById("seconds").textContent = `${seconds} Sekunden`;
-
-  document.getElementById("deadline").textContent =
-    `Deadline: ` + format(new Date("2025-09-01 08:00:00"), "dd.MM.yyyy");
 }
 
 updateCountdown();
