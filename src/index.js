@@ -94,13 +94,13 @@ function updateCountdown() {
   document.getElementById("today").textContent =
     `Aktuell: ` + format(new Date(), "dd.MM.yyyy - hh:mm:ss");
 
-  document.getElementById("years").textContent = `Noch ${years} Jahre`;
-  document.getElementById("months").textContent = `Noch ${months} Monate`;
-  document.getElementById("weeks").textContent = `Noch ${weeks} Wochen`;
-  document.getElementById("days").textContent = `Noch ${days} Tage`;
-  document.getElementById("hours").textContent = `Noch ${hours} Stunden`;
-  document.getElementById("minutes").textContent = `Noch ${minutes} Minuten`;
-  document.getElementById("seconds").textContent = `Noch ${seconds} Sekunden`;
+  document.getElementById("years").textContent = ` ${years} Jahre`;
+  document.getElementById("months").textContent = ` ${months} Monate`;
+  document.getElementById("weeks").textContent = ` ${weeks} Wochen`;
+  document.getElementById("days").textContent = ` ${days} Tage`;
+  document.getElementById("hours").textContent = ` ${hours} Stunden`;
+  document.getElementById("minutes").textContent = ` ${minutes} Minuten`;
+  document.getElementById("seconds").textContent = ` ${seconds} Sekunden`;
 
   document.getElementById("deadline").textContent =
     `Deadline: ` + format(new Date("2025-09-01 08:00:00"), "dd.MM.yyyy");
