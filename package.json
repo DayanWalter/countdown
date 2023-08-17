@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "bundle": "git subtree push --prefix dist origin gh-pages",
     "build": "webpack",
     "watch": "npx webpack --watch"
   },

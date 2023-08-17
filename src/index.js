@@ -68,13 +68,13 @@ const DOM = (() => {
   deadline.id = "deadline";
   deadline.classList.add("time-container");
   deadline.textContent =
-    `Einschulung: ` + format(new Date("2025-09-01 08:00:00"), "dd.MM.yyyy");
+    `Einschulung: ` + format(new Date("2025-09-08 08:00:00"), "dd.MM.yyyy");
 
   countdown.append(deadline);
 })();
 
 function updateCountdown() {
-  const targetDate = new Date("2025-09-01 08:00:00");
+  const targetDate = new Date("2025-09-08 08:00:00");
   const now = new Date();
 
   const years = differenceInYears(targetDate, now);
