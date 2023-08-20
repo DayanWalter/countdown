@@ -17,7 +17,7 @@ html {
   border-radius: 8px;
   background-color: #34495e;
   color: white;
-  border: 1px solid black;
+  border: 1px solid rgb(21, 21, 21);
 }
 .time-container {
   width: 250px;
