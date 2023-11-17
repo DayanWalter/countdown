@@ -74,7 +74,7 @@ const DOM = (() => {
 })();
 
 function updateCountdown() {
-  const targetDate = new Date('2024-09-08 08:00:00');
+  const targetDate = new Date('2025-09-08 08:00:00');
   const now = new Date();
 
   const years = differenceInYears(targetDate, now);
