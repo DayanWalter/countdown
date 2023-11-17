@@ -68,8 +68,7 @@ const DOM = (() => {
   deadline.id = 'deadline';
   deadline.classList.add('time-container');
   deadline.textContent =
-    `Ein Jahr vor Einschulung: ` +
-    format(new Date('2024-09-08 08:00:00'), 'dd.MM.yyyy');
+    `Einschulung: ` + format(new Date('2025-09-08 08:00:00'), 'dd.MM.yyyy');
 
   countdown.append(deadline);
 })();
